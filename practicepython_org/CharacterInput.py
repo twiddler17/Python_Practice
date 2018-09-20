@@ -6,7 +6,7 @@
 #   Date last modified: 9/20/2018
 #   Python Version:     3.6.1
 #
-#   Update: Modified to display num_times
+#   Update: Modified to display num_times.
 #
 ############################################################
 
