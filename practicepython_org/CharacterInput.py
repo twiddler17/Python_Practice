@@ -3,10 +3,10 @@
 #   File Name:          CharacterInput.py
 #   Author:             George Sinitsyn (github: twiddler17)
 #   Date create:        9/19/2018
-#   Date last modified: 9/20/2018
+#   Date last modified: 9/21/2018
 #   Python Version:     3.6.1
 #
-#   Update: Modified to display num_times.
+#   Update: Move date_old calc.
 #
 ############################################################
 
