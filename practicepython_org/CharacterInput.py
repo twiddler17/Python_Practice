@@ -42,11 +42,12 @@ while num_empty:
 
 current_year = datetime.now().year
 
+date_old = str(current_year + 100 - age)
+
 while num_times > 0:
     if age == 100:
         print(name + ", you are already 100 years old.")
     else:
-        date_old = str(current_year + 100 - age)
         print(name + ", you will be 100 years old in " + date_old + ".")
     num_times -= 1
 
