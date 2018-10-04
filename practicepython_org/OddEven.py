@@ -36,3 +36,5 @@ if not num % div:
     print(num, "is divisible by", div, "and equals to", int(num / div))
 else:
     print(num, "will not evenly divide by", div)
+
+#End
