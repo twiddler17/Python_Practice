@@ -3,10 +3,10 @@
 #   File Name:          OddEven.py
 #   Author:             George Sinitsyn (github: twiddler17)
 #   Date create:        9/21/2018
-#   Date last modified: 9/21/2018
+#   Date last modified: 10/3/2018
 #   Python Version:     3.6.1
 #
-#   Update: First Commit.
+#   Update: Finished
 #
 ############################################################
 
