@@ -1,6 +1,6 @@
 ############################################################
 #
-#   File Name:          CharacterInput.py
+#   File Name:          character_input.py
 #   Author:             George Sinitsyn (github: twiddler17)
 #   Date create:        9/19/2018
 #   Date last modified: 9/21/2018
