@@ -10,10 +10,13 @@
 #
 ############################################################
 
+#My way too overcomplicated way
+
 #Begin
 
 #Functions
 
+"""
 def reverse(w):
     rev_w = []
     for i in range(len(w) - 1, -1, -1):
@@ -23,10 +26,25 @@ def reverse(w):
 word = input("Please enter a word: ")
 rev_word = reverse(word)
 rev_word = ''.join(str(i) for i in rev_word)
-if(word == rev_word):
+if word == rev_word:
     print(word, "is a palindrome")
 else:
     print(word, "is not a palindrome")
+"""
 
+#End
+
+#Best Way
+
+#Begin
+
+wrd=input("Please enter a word")
+wrd=str(wrd)
+rvs=wrd[::-1]
+print(rvs)
+if wrd == rvs:
+    print("This word is a palindrome")
+else:
+    print("This word is not a palindrome")
 
 #End
