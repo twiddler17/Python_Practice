@@ -3,10 +3,10 @@
 #   File Name:          string_lists.py
 #   Author:             George Sinitsyn (github: twiddler17)
 #   Date create:        10/31/2018
-#   Date last modified: 10/31/2018
+#   Date last modified: 11/7/2018
 #   Python Version:     3.7.0
 #
-#   Update: First Commit
+#   Update: Final
 #
 ############################################################
 
@@ -16,22 +16,22 @@
 
 #Functions
 
-"""
+
 def reverse(w):
-    rev_w = []
+    rev_w = ''
     for i in range(len(w) - 1, -1, -1):
-        rev_w.append(w[i])
+        rev_w += w[i]
     return rev_w
 
 word = input("Please enter a word: ")
 rev_word = reverse(word)
-rev_word = ''.join(str(i) for i in rev_word)
+print("Reversed: " + rev_word)
 if word == rev_word:
     print(word, "is a palindrome")
 else:
     print(word, "is not a palindrome")
-"""
 
+"""
 #End
 
 #Best Way
@@ -48,3 +48,5 @@ else:
     print("This word is not a palindrome")
 
 #End
+
+"""

@@ -6,7 +6,7 @@
 #   Date last modified: 11/7/2018
 #   Python Version:     3.6.1
 #
-#   Update: First Commit.
+#   Update: Final Commit
 #
 ############################################################
 
@@ -14,7 +14,7 @@
 
 a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 
-final =  [i for i in a if (i % 2) == 0]
+final =  [i for i in a if i % 2 == 0]
 
 print("Final: ", final)
 
